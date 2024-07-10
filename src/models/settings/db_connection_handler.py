@@ -1,6 +1,7 @@
 import sqlite3
 from sqlite3 import Connection
 
+
 class DbConnectionHandler:
     def __init__(self) -> None:
         self.__connection_string = "storage.db"
